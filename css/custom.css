@@ -1,0 +1,269 @@
+@font-face {
+  font-family: 'Dosis Bold';
+  src: url('../fonts/dosis/dosis-bold.eot');
+  src: url('../fonts/dosis/dosis-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/dosis/dosis-bold.woff2') format('woff2'), url('../fonts/dosis/dosis-bold.woff') format('woff'), url('../fonts/dosis/dosis-bold.ttf') format('truetype'), url('../fonts/dosis/dosis-bold.svg#glyphicons_halflingsregular') format('svg');
+}
+body {
+  font-family: "Dosis Bold", sans-serif;
+  background-color: #E6E6E6;
+}
+h1 {
+ display: none;
+}
+
+/* Menu superior */
+.f-container-nav {
+  background-color: #E6E6E6;
+}
+
+.f-ad-top {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.navbar {
+  min-height: 195px;
+  text-transform: uppercase;
+}
+.navbar-right {
+  margin-right: 0;
+}
+.navbar-default {
+  background: none;
+  border: 0;
+}
+.navbar-default .navbar-nav li a {
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #242424;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background-color: #ED1C24;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: #FFF;
+  background-color: #242424;
+}
+
+/* Logo */
+.navbar-brand {
+  margin-left: 0;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+/* Caixa de pesquisa */
+.f-search {
+  width: 130px;
+  float: left;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+.f-search .form-control,
+.f-search .input-group-btn > .btn
+ {
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 0;
+}
+.f-search .form-control:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(36, 36, 36, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(36, 36, 36, .6);
+}
+
+/* Segunda barra superior */
+.f-secondbar {
+  height: 30px;
+  background-color: #242424;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.f-secondbar .f-secondbar-a {
+  color: #FFF;
+  display: inline-block;
+  padding: 4px 15px 6px 15px;
+}
+.f-secondbar .f-secondbar-a-first {
+  width: 142px;
+  background-image:url(../images/secondbar-arrow.png);
+}
+.f-secondbar a:hover,
+.f-secondbar a:focus {
+  color: #FFF;
+}
+
+/* Imagens cobrindo o quadro uniformemente */
+.f-cover {
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -moz-box-shadow: inset 0 -200px 120px -160px #000;
+  -webkit-box-shadow: inset 0 -200px 120px -160px #000;
+  box-shadow: inset 0 -200px 120px -160px #000;
+  position: relative;
+}
+
+/* Notícias em destaque */
+.f-featured {
+  margin-bottom: 30px;
+}
+.f-featured-img:hover {
+ opacity: 0.8;
+}
+
+.f-featured-img {
+  height: 250px;
+}
+.f-featured-img-bmw {
+  background-image: url(../ori/bmw.jpg);
+  height: 500px;
+}
+.f-featured-img-ad {
+  background-color: #242424;
+  padding-left: 0;
+  padding-right: 0;
+  opacity: 1 !important;
+}
+.f-featured-img-ad span {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 25px;
+  right: -18px;
+  font-size: 9px;
+  color: #000;
+  transform: rotate(270deg);
+}
+.f-featured-img-kia {
+  background-image: url(../ori/kia.jpg);
+}
+.f-featured-img-porsche {
+  background-image: url(../ori/porsche.jpg);
+}
+.f-featured-img-vw {
+  background-image: url(../ori/vw.jpg);
+}
+.f-featured h2, .f-featured h3 {
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: right;
+}
+.f-featured h2 span {
+  font-size: 18px;
+  top: 3px !important;
+  padding-right: 5px;
+  color: #ED1C24;
+}
+.f-featured h2 {
+  font-size: 15px;
+}
+.f-featured h3 {
+  font-size: 32px;
+  margin-top: 0;
+}
+.f-featured h3.small {
+  font-size: 18px;
+}
+.f-featured-text {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+/* Notícias recentes */
+.f-recent-img {
+  height: 210px;
+}
+.f-recent-img:hover {
+ opacity: 0.8;
+}
+.f-recent-img-audi {
+  background-image: url(../ori/audi.png);
+}
+.f-recent-img-nissan {
+  background-image: url(../ori/nissan.png);
+}
+.f-recent-img-bmw {
+  background-image: url(../ori/bmw2.jpg);
+}
+.f-recent-img-chevrolet {
+  background-image: url(../ori/chevrolet.jpg);
+}
+.f-recent-columns .row div {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.f-recent-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.f-recent-text h2 span {
+  font-size: 18px;
+  top: 3px !important;
+  padding-right: 5px;
+  color: #ED1C24;
+}
+.f-recent-text h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.f-recent-desc h3 {
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.f-recent-x {
+  text-transform: uppercase;
+  color: #ED1C24;
+}
+.f-recent-x span {
+  font-size: 6px;
+}
+.f-recent-sides {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Ajustes responsivos */
+@media (min-width:992px) and (max-width:1199px) {
+  body {
+    min-height: 1150px;
+    padding-top: 245px;
+  }
+}
+@media (min-width:768px) and (max-width:991px) {
+  body {
+    min-height: 1150px;
+    padding-top: 279px;
+  }
+  .nav > li > a {
+    padding: 10px;
+  }
+  .navbar-default .navbar-nav li a {
+    padding-bottom: 10px;
+  }
+  .f-search {
+	padding-top: 0;
+    padding-left: 10px;
+	width: 100%;
+  }
+}
+@media (max-width:767px) {
+  .navbar, .navbar-header {
+    background-color: #ED1C24;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    background-color: #D41F1F;
+	border: 0;
+  }
+}
